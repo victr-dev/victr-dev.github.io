@@ -22,5 +22,5 @@ I'm a bilingual (English/Spanish) operations professional with 5+ years of resta
 
 ## Contact
 - Email: vicsaispace@gmail.com
-- LinkedIn: linkedin.com/in/yourprofile
+- LinkedIn: www.linkedin.com/in/victor-hernandez-486503221
 - Location: San Antonio, TX
