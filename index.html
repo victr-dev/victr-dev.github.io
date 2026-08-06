@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Victor Hernandez</title>
+  <title>Victor Hernandez | IT Support</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Lora:ital,wght@0,400;0,600;1,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
@@ -18,7 +18,7 @@
     <div class="nav-inner">
       <a href="#" class="nav-logo">Victor Hernandez</a>
       <ul class="nav-links">
-        <li><a href="#projects">Projects</a></li>
+        <li><a href="#projects">Lab</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#experience">Experience</a></li>
         <li><a href="#contact">Contact</a></li>
@@ -31,35 +31,35 @@
   <div class="hero">
     <div class="hero-inner">
       <div>
-        <h1>Building at the intersection of hospitality and technology.</h1>
+        <h1>I've always been the one who fixes things. Now I'm doing it in IT.</h1>
         <p class="hero-sub">
-          Bilingual operator with 5+ years running restaurants, now focused on implementing AI and technology solutions for the businesses that power them. Based in San Antonio, TX.
+          Google IT Support certified with CompTIA Network+, Security+ in progress. 5+ years running high-pressure restaurant operations, now applying that same troubleshooting instinct to help desk and desktop support. Based in San Antonio, TX.
         </p>
         <div class="hero-actions">
-          <a href="#projects" class="btn-primary">See my projects →</a>
+          <a href="#projects" class="btn-primary">See my lab work →</a>
           <a href="#about" class="btn-ghost">About me</a>
         </div>
       </div>
       <div class="hero-facts">
         <div class="hero-fact">
-          <div class="hero-fact-icon"><i class="ph-thin ph-fork-knife"></i></div>
-          5+ years restaurant ops
+          <div class="hero-fact-icon"><i class="ph-thin ph-certificate"></i></div>
+          Google IT Support Certified
+        </div>
+        <div class="hero-fact">
+          <div class="hero-fact-icon"><i class="ph-thin ph-wifi-high"></i></div>
+          CompTIA Network+
+        </div>
+        <div class="hero-fact">
+          <div class="hero-fact-icon"><i class="ph-thin ph-shield-check"></i></div>
+          Security+ · In Progress
         </div>
         <div class="hero-fact">
           <div class="hero-fact-icon"><i class="ph-thin ph-globe-hemisphere-west"></i></div>
           Bilingual EN / ES
         </div>
         <div class="hero-fact">
-          <div class="hero-fact-icon"><i class="ph-thin ph-graduation-cap"></i></div>
-          B.A.T. Operations Mgmt
-        </div>
-        <div class="hero-fact">
           <div class="hero-fact-icon"><i class="ph-thin ph-map-pin"></i></div>
           San Antonio, TX
-        </div>
-        <div class="hero-fact">
-          <div class="hero-fact-icon"><i class="ph-thin ph-monitor"></i></div>
-          Toast POS · Daily user
         </div>
       </div>
     </div>
@@ -70,67 +70,88 @@
   <!-- PROJECTS -->
   <section id="projects">
     <div class="section-header">
-      <h2>Projects</h2>
-      <span class="section-label">Selected work</span>
+      <h2>Lab</h2>
+      <span class="section-label">Troubleshooting &amp; builds</span>
     </div>
 
     <div class="projects-grid">
 
-      <!-- Tipwell — Featured -->
-      <a href="https://tipwell.co" target="_blank" class="project-card featured">
-        <div class="project-icon"><i class="ph-thin ph-coins"></i></div>
+      <!-- Proxmox Home Server — Featured -->
+      <a href="#" class="project-card featured">
+        <div class="project-icon"><i class="ph-thin ph-hard-drives"></i></div>
         <div class="project-body">
-          <div class="project-num">001 · Featured · Active Build</div>
-          <div class="project-title">Tipwell</div>
-          <p class="project-desc">A financial guidance app for tipped hospitality workers including bartenders, servers, and shift-based earners. Built solo from scratch using Lovable, Supabase, and the Claude API, Tipwell uses AI to help workers understand and act on their income in real time.</p>
+          <div class="project-num">001 · Featured · Home Lab</div>
+          <div class="project-title">Proxmox Home Server</div>
+          <p class="project-desc">A self-hosted virtualization environment I built and maintain from the ground up — VMs, containers, networking, and storage all configured and administered solo. It's where I break things on purpose so I know how to fix them for real, not just in theory.</p>
           <div class="project-footer" style="margin-top: 1.5rem;">
             <div class="project-tags">
-              <span class="ptag">Fintech</span>
-              <span class="ptag">Hospitality</span>
-              <span class="ptag">AI</span>
-              <span class="ptag">Solo Build</span>
+              <span class="ptag">Homelab</span>
+              <span class="ptag">Linux</span>
+              <span class="ptag">Virtualization</span>
+              <span class="ptag">Networking</span>
             </div>
-            <span class="project-status">Alpha ↗</span>
+            <span class="project-status">Active ↗</span>
           </div>
         </div>
       </a>
 
-      <!-- F&B Cost Calculator -->
+      <!-- Boot Failure Case Study -->
       <a href="#" class="project-card">
         <div class="project-card-top">
-          <div class="project-icon"><i class="ph-thin ph-chart-bar"></i></div>
+          <div class="project-icon"><i class="ph-thin ph-magnifying-glass"></i></div>
           <div class="project-arrow">↗</div>
         </div>
         <div>
-          <div class="project-num">002 · Coming Soon</div>
-          <div class="project-title">F&B Cost Calculator</div>
-          <p class="project-desc">An interactive tool for restaurant and bar operators to calculate food cost percentage, pour cost, par levels, prime cost, and COGS. Built from real operator experience to surface numbers that actually drive decisions.</p>
+          <div class="project-num">002 · Case Study</div>
+          <div class="project-title">Diagnosing a Boot Failure</div>
+          <p class="project-desc">A step-by-step root-cause investigation after a home server stopped booting — isolating cables, RAM, USB media, ISO checksum integrity, NCQ settings, and stale LVM metadata before tracing it to a kernel regression. The write-up documents the process, not just the fix.</p>
         </div>
         <div class="project-footer">
           <div class="project-tags">
-            <span class="ptag">Operations</span>
-            <span class="ptag">Bar & Restaurant</span>
-            <span class="ptag">Tool</span>
+            <span class="ptag">Troubleshooting</span>
+            <span class="ptag">Linux</span>
+            <span class="ptag">Documentation</span>
           </div>
         </div>
       </a>
 
-      <!-- POS Comparison Tool -->
-      <a href="#" class="project-card">
+      <!-- Tipwell -->
+      <a href="https://tipwell.co" target="_blank" class="project-card">
         <div class="project-card-top">
-          <div class="project-icon"><i class="ph-thin ph-devices"></i></div>
+          <div class="project-icon"><i class="ph-thin ph-coins"></i></div>
           <div class="project-arrow">↗</div>
         </div>
         <div>
-          <div class="project-num">003 · Coming Soon</div>
-          <div class="project-title">POS Comparison Tool</div>
-          <p class="project-desc">An interactive tool that helps restaurant operators find the right point-of-sale system based on their restaurant type, size, and priorities. Built with honest, unbiased recommendations from someone who has used these systems daily.</p>
+          <div class="project-num">003 · Side Project</div>
+          <div class="project-title">Tipwell</div>
+          <p class="project-desc">A financial guidance app for tipped hospitality workers — bartenders, servers, and shift-based earners. Built solo using Lovable, Supabase, and the Claude API. Not IT support work, but a project I'm proud of: spotting a real problem in an industry I know well and shipping a working solution end to end.</p>
         </div>
         <div class="project-footer">
           <div class="project-tags">
-            <span class="ptag">Restaurant Tech</span>
-            <span class="ptag">Industry Research</span>
-            <span class="ptag">Tool</span>
+            <span class="ptag">Fintech</span>
+            <span class="ptag">AI</span>
+            <span class="ptag">Solo Build</span>
+          </div>
+          <span class="project-status">Alpha ↗</span>
+        </div>
+      </a>
+
+      <!-- IT Support Ticket Log -->
+      <a href="#" class="project-card">
+        <div class="project-card-top">
+          <div class="project-icon"><i class="ph-thin ph-ticket"></i></div>
+          <div class="project-arrow">↗</div>
+        </div>
+        <div>
+          <div class="project-num">004 · Coming Soon</div>
+          <div class="project-title">IT Support Ticket Log</div>
+          <p class="project-desc">A running log of practice help desk scenarios — hardware, OS, account, and network issues — solved and documented the way I'd document them on the job, from intake to resolution.</p>
+        </div>
+        <div class="project-footer">
+          <div class="project-tags">
+            <span class="ptag">Help Desk</span>
+            <span class="ptag">Documentation</span>
+            <span class="ptag">Practice</span>
           </div>
         </div>
       </a>
@@ -138,7 +159,7 @@
     </div>
 
     <div class="project-placeholder">
-      More projects in progress
+      More lab entries coming soon
     </div>
 
   </section>
@@ -168,14 +189,14 @@
         <div class="about-tile-sub">Systems thinking, process improvement, operational planning</div>
       </div>
       <div class="about-tile">
-        <div class="about-tile-icon"><i class="ph-thin ph-robot"></i></div>
-        <div class="about-tile-title">AI-forward</div>
-        <div class="about-tile-sub">Implementing AI solutions across fintech, hospitality, and operations</div>
+        <div class="about-tile-icon"><i class="ph-thin ph-certificate"></i></div>
+        <div class="about-tile-title">IT Certified</div>
+        <div class="about-tile-sub">Google IT Support · CompTIA Network+ · Security+ in progress</div>
       </div>
     </div>
 
     <div class="about-bio">
-      <p>I spent years working every corner of a restaurant and became the person people called when the technology wasn't working. That experience shapes how I think about implementation: the best tools are the ones people actually use, and the best rollouts are the ones that stick after you leave. I'm now focused on helping organizations implement AI and technology solutions that solve real operational problems, drawing on firsthand knowledge of the environments where that technology lives.</p>
+      <p>I spent years working every corner of a restaurant floor and became the person people called when the POS went down, the printer jammed, or the network dropped mid-rush. That instinct — stay calm, isolate the problem, fix it without shutting down service — is the same one I bring to IT support. I'm now formalizing it: Google IT Support certified, CompTIA Network+ in hand, Security+ in progress, and a home lab where I get real, hands-on reps with the systems and troubleshooting scenarios that come up on a help desk.</p>
     </div>
   </section>
 
@@ -193,7 +214,7 @@
         <div>
           <div class="exp-role">Bar & FOH Lead / Manager</div>
           <div class="exp-company">Las Fontanas Mexican Kitchen · New Braunfels, TX</div>
-          <div class="exp-desc">Managed day-to-day FOH operations including scheduling, inventory, labor allocation, and daily reporting. Trained staff on POS systems and operational workflows. Introduced process improvements that reduced errors during peak service. Operated across every FOH function with nothing considered beneath the role.</div>
+          <div class="exp-desc">Managed day-to-day FOH operations including scheduling, inventory, labor allocation, and daily reporting. Went-to person for POS issues, connectivity problems, and any tech that broke mid-shift — diagnosed and resolved on the spot to keep service running. Trained staff on POS systems and operational workflows.</div>
         </div>
       </div>
       <div class="exp-card">
@@ -207,9 +228,9 @@
       <div class="exp-card">
         <div class="exp-date">2025 — Present</div>
         <div>
-          <div class="exp-role">Independent Builder</div>
+          <div class="exp-role">IT Certifications & Home Lab</div>
           <div class="exp-company">Self-directed · victr-dev.github.io</div>
-          <div class="exp-desc">Designing and shipping AI-powered tools for the restaurant and fintech space. Focused on the full implementation lifecycle: identifying the problem, building the solution, and ensuring it works for the people using it. Structured AI engineering program in progress through December 2026.</div>
+          <div class="exp-desc">Completed the Google IT Support Professional Certificate and CompTIA Network+; currently studying for Security+. Running a self-hosted Proxmox home lab to get real, hands-on reps with the systems, networking, and troubleshooting scenarios that come up on a help desk.</div>
         </div>
       </div>
     </div>
@@ -223,15 +244,11 @@
       <h2>Contact</h2>
     </div>
     <div class="contact-card">
-        <p class="contact-intro">Actively looking for implementation roles in AI, restaurant technology, and operations. If you're working on something in this space, let's talk.</p>
+        <p class="contact-intro">Actively looking for entry-level IT support and help desk roles in San Antonio. If you're hiring or know a team that is, let's talk.</p>
         <div class="contact-links">
           <a href="mailto:vhernandez7433@outlook.com" class="contact-link">
             <span class="cll"><i class="ph-thin ph-envelope"></i> Email</span>
-            <span class="clv">vhernandez7433@outlook.com</span>
-          </a>
-          <a href="tel:2106495618" class="contact-link">
-            <span class="cll"><i class="ph-thin ph-phone"></i> Phone</span>
-            <span class="clv">210-649-5618</span>
+            <span class="clv">vicsprofessionalnet@gmail.com</span>
           </a>
           <a href="https://linkedin.com/in/victor-hernandez-486503221" target="_blank" class="contact-link">
             <span class="cll"><i class="ph-thin ph-linkedin-logo"></i> LinkedIn</span>
