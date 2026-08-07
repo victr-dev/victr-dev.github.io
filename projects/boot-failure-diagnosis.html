@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Diagnosing a Boot Failure | Victor Hernandez</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Lora:ital,wght@0,400;0,600;1,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/@phosphor-icons/web@2.1.1/src/index.js"></script>
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav>
+    <div class="nav-inner">
+      <a href="../index.html" class="nav-logo">Victor Hernandez</a>
+      <ul class="nav-links">
+        <li><a href="../index.html#projects">Projects</a></li>
+        <li><a href="../index.html#about">About</a></li>
+        <li><a href="../index.html#certifications">Certifications</a></li>
+        <li><a href="../index.html#experience">Experience</a></li>
+        <li><a href="../index.html#education">Education</a></li>
+        <li><a href="../index.html#contact">Contact</a></li>
+      </ul>
+      <a href="../index.html#contact" class="nav-cta">Get in touch</a>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <div class="hero">
+    <div class="hero-inner">
+      <div>
+        <h1>Diagnosing a Boot Failure</h1>
+        <p class="hero-sub">
+          A real troubleshooting log from my home lab — isolating a boot failure one variable at a time until it led back to a kernel regression.
+        </p>
+        <div class="hero-actions">
+          <a href="../index.html#projects" class="btn-ghost">← Back to Projects</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <hr class="full-divider">
+
+  <section>
+    <div class="section-header">
+      <h2>The problem</h2>
+    </div>
+    <div class="about-bio">
+      <p>My home server stopped booting after a routine update. No obvious error message, no clear culprit — just a system that wouldn't come back up.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="section-header">
+      <h2>The process</h2>
+    </div>
+    <div class="about-bio">
+      <p>I worked through it systematically, ruling out one layer at a time: reseated cables and connections, tested RAM, tried booting from different USB media, verified ISO checksum integrity, checked NCQ (Native Command Queuing) settings on the storage controller, and inspected LVM metadata for corruption. Each step eliminated a possibility rather than guessing at a fix.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="section-header">
+      <h2>The root cause</h2>
+    </div>
+    <div class="about-bio">
+      <p>The issue traced back to a kernel regression introduced in a recent update — not hardware, not user error, but a software-level incompatibility. Rolling back to a known-good kernel resolved it, and I documented the fix path for future reference.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="section-header">
+      <h2>Why it matters</h2>
+    </div>
+    <div class="about-bio">
+      <p>This is the kind of methodical, layer-by-layer troubleshooting I'd bring to a help desk ticket: don't guess, isolate variables one at a time, document the process, and get to the actual root cause instead of a temporary patch.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="section-header">
+      <h2>Tags</h2>
+    </div>
+    <div class="project-tags">
+      <span class="ptag">Linux</span>
+      <span class="ptag">Kernel</span>
+      <span class="ptag">Troubleshooting</span>
+      <span class="ptag">Documentation</span>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-inner">
+      <p>© 2026 Victor Hernandez</p>
+      <p>San Antonio, TX · Built with intention</p>
+    </div>
+  </footer>
+
+</body>
+</html>
