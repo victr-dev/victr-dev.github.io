@@ -1,18 +1,16 @@
 # Victor Hernandez — Portfolio
 
-Personal portfolio site showcasing my projects and background as I transition into the IT.
+Personal portfolio site showcasing my projects and background as a systems-minded operator moving into technical and implementation roles.
 
 ## Live Site
 [victr-dev.github.io](https://victr-dev.github.io)
 
 ## About
-I'm working toward a career in IT support, starting with an entry-level help desk or desktop support role in San Antonio.
- 
-I hold a Google IT Support Professional Certificate (coursework comparable to CompTIA A+) and CompTIA Network+, and I'm currently studying for Security+. Outside of coursework, I run a self-hosted Proxmox home lab where I document my own troubleshooting process. Isolating issues methodically across hardware, firmware, and OS layers rather than guessing at fixes.
- 
-My background is in restaurant management, where I spent time diagnosing operational bottlenecks in real time, training staff on new systems and procedures, and staying calm while solving problems under pressure, skills that translate directly to a support desk environment where the person on the other end needs clear answers, fast.
- 
-I'm looking to bring that same methodical, customer-first approach to a help desk or desktop support team.
+I'm looking to bring a systems-and-people mindset to technical, client-facing, and operations roles in San Antonio — POS and systems implementation especially.
+
+I hold a Google IT Support Professional Certificate (coursework comparable to CompTIA A+). Outside of coursework, I run a self-hosted Proxmox home lab where I document my own troubleshooting process, isolating issues methodically across hardware, firmware, and OS layers rather than guessing at fixes.
+
+My background is in restaurant management, where I led POS rollout and training, diagnosed operational bottlenecks in real time, and stayed calm while solving problems under pressure — skills that translate directly to implementation and support work where the person on the other end needs clear answers, fast.
 
 ## Projects
 | Project | Description | Status |
