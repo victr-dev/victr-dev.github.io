@@ -6,9 +6,9 @@
   <title>Victor Hernandez | Implementation Specialist</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Lora:ital,wght@0,400;0,600;1,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-  <!-- Phosphor Icons: thin line, sketch-like -->
-  <script src="https://unpkg.com/@phosphor-icons/web@2.1.1/src/index.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <!-- Lucide icons: clean 1.5px line set -->
+  <script src="https://unpkg.com/lucide@0.460.0/dist/umd/lucide.min.js"></script>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -33,9 +33,9 @@
   <div class="hero">
     <div class="hero-inner">
       <div>
-        <h1>Aspiring Implementation Specialist</h1>
+        <h1>Breaking into Restaurant Technology</h1>
         <p class="hero-sub">
-          I spent 5 years running high-pressure restaurant operations: scheduling, training, vendor coordination, and I was the go-to person whenever the POS, connectivity, or any other tech broke mid-shift. I've since added a Google IT Support certification and taught myself Linux and virtualization through a home lab I built from scratch. Now I'm looking to bring that same mix of systems thinking and people skills into implementation specialist roles. Based in San Antonio, TX.
+          I've spent the last 5 years in front-of-house management, training staff, working with vendors, and usually being the one who got the POS or Wi-Fi back up when it went down during service. Along the way I earned my Google IT Support certificate and started learning Linux and virtualization on a home server I set up myself. Now I'm looking for an implementation specialist role where I can use both the tech and the people side of what I do. Based in San Antonio, TX.
         </p>
         <div class="hero-actions">
           <a href="#projects" class="btn-primary">See my projects →</a>
@@ -44,23 +44,19 @@
       </div>
       <div class="hero-facts">
         <div class="hero-fact">
-          <div class="hero-fact-icon"><i class="ph-thin ph-certificate"></i></div>
+          <div class="hero-fact-icon"><i data-lucide="award"></i></div>
           Google IT Support Certified
         </div>
         <div class="hero-fact">
-          <div class="hero-fact-icon"><i class="ph-thin ph-users-three"></i></div>
+          <div class="hero-fact-icon"><i data-lucide="wrench"></i></div>
           POS Troubleshooting
         </div>
         <div class="hero-fact">
-          <div class="hero-fact-icon"><i class="ph-thin ph-hard-drives"></i></div>
-          Self-Hosted Home Lab
-        </div>
-        <div class="hero-fact">
-          <div class="hero-fact-icon"><i class="ph-thin ph-globe-hemisphere-west"></i></div>
+          <div class="hero-fact-icon"><i data-lucide="languages"></i></div>
           Bilingual EN / ES
         </div>
         <div class="hero-fact">
-          <div class="hero-fact-icon"><i class="ph-thin ph-map-pin"></i></div>
+          <div class="hero-fact-icon"><i data-lucide="map-pin"></i></div>
           San Antonio, TX
         </div>
       </div>
@@ -79,15 +75,14 @@
     <div class="projects-grid">
 
       <!-- Proxmox Home Server -->
-      <a href="projects/proxmox-home-server.html" class="project-card">
+      <div class="project-card">
         <div class="project-card-top">
-          <div class="project-icon"><i class="ph-thin ph-hard-drives"></i></div>
-          <div class="project-arrow">↗</div>
+          <div class="project-icon"><i data-lucide="server"></i></div>
         </div>
         <div>
           <div class="project-num">001 · Home Lab</div>
           <div class="project-title">Proxmox Home Server</div>
-          <p class="project-desc">A self-hosted virtualization environment I built and maintain on my own: VMs, containers, networking, and storage, all configured and administered solo. It's where I break things on purpose so I actually know how to fix them, not just recognize them from a diagram.</p>
+          <p class="project-desc">I repurposed an old PC into a Proxmox server to learn networking hands-on and move my files and services off big tech cloud storage and onto hardware I control.</p>
         </div>
         <div class="project-footer">
           <div class="project-tags">
@@ -96,20 +91,19 @@
             <span class="ptag">Virtualization</span>
             <span class="ptag">Networking</span>
           </div>
-          <span class="project-status">Active ↗</span>
+          <span class="project-status">Active</span>
         </div>
-      </a>
+      </div>
 
-      <!-- Tipwell -->
-      <a href="https://tipwell.co" target="_blank" class="project-card">
+      <!-- Financial Health App -->
+      <div class="project-card">
         <div class="project-card-top">
-          <div class="project-icon"><i class="ph-thin ph-coins"></i></div>
-          <div class="project-arrow">↗</div>
+          <div class="project-icon"><i data-lucide="wallet"></i></div>
         </div>
         <div>
           <div class="project-num">002 · Side Project</div>
-          <div class="project-title">Tipwell</div>
-          <p class="project-desc">A financial guidance app for tipped hospitality workers: bartenders, servers, and shift-based earners. Built solo using Lovable, Supabase, and the Claude API. Not implementation or IT work, but a project I'm proud of: I spotted a real problem in an industry I know well and shipped a working solution end to end.</p>
+          <div class="project-title">Financial Health App</div>
+          <p class="project-desc">No budgeting app I tried really worked with inconsistent bartending income, so I built my own. You log tips after each shift and set a monthly budget based on what you expect to make. The app tracks actual earnings and spending, projects where you'll land by month's end, and shows balances, upcoming bills, and debts in one place, so you know early whether to save extra or cut back.</p>
         </div>
         <div class="project-footer">
           <div class="project-tags">
@@ -117,9 +111,63 @@
             <span class="ptag">AI</span>
             <span class="ptag">Solo Build</span>
           </div>
-          <span class="project-status">Alpha ↗</span>
+          <span class="project-status">Alpha</span>
         </div>
-      </a>
+      </div>
+
+      <!-- Bar Optimization Project -->
+      <div class="project-card">
+        <div class="project-card-top">
+          <div class="project-icon"><i data-lucide="beer"></i></div>
+        </div>
+        <div>
+          <div class="project-num">003 · Placeholder</div>
+          <div class="project-title">Bar Optimization Project</div>
+          <p class="project-desc">Details coming soon.</p>
+        </div>
+        <div class="project-footer">
+          <div class="project-tags">
+            <span class="ptag">TBD</span>
+          </div>
+          <span class="project-status">Coming soon</span>
+        </div>
+      </div>
+
+      <!-- API / Integration Project -->
+      <div class="project-card">
+        <div class="project-card-top">
+          <div class="project-icon"><i data-lucide="plug"></i></div>
+        </div>
+        <div>
+          <div class="project-num">004 · Placeholder</div>
+          <div class="project-title">API / Integration Project</div>
+          <p class="project-desc">Details coming soon.</p>
+        </div>
+        <div class="project-footer">
+          <div class="project-tags">
+            <span class="ptag">TBD</span>
+          </div>
+          <span class="project-status">Coming soon</span>
+        </div>
+      </div>
+
+      <!-- SQL Project -->
+      <div class="project-card">
+        <div class="project-card-top">
+          <div class="project-icon"><i data-lucide="database"></i></div>
+        </div>
+        <div>
+          <div class="project-num">005 · Placeholder</div>
+          <div class="project-title">SQL Project</div>
+          <p class="project-desc">Details coming soon.</p>
+        </div>
+        <div class="project-footer">
+          <div class="project-tags">
+            <span class="ptag">TBD</span>
+          </div>
+          <span class="project-status">Coming soon</span>
+        </div>
+      </div>
 
     </div>
 
@@ -139,29 +187,29 @@
 
     <div class="about-strip">
       <div class="about-tile">
-        <div class="about-tile-icon"><i class="ph-thin ph-hard-drives"></i></div>
-        <div class="about-tile-title">Home Lab Builder</div>
-        <div class="about-tile-sub">Self-hosted Proxmox environment I run and break on purpose, just to learn how it works</div>
+        <div class="about-tile-icon"><i data-lucide="sparkles"></i></div>
+        <div class="about-tile-title">AI Literate</div>
+        <div class="about-tile-sub">Comfortable with Claude, ChatGPT, and Gemini for streamlining workflows and getting more done</div>
       </div>
       <div class="about-tile">
-        <div class="about-tile-icon"><i class="ph-thin ph-translate"></i></div>
+        <div class="about-tile-icon"><i data-lucide="languages"></i></div>
         <div class="about-tile-title">Bilingual EN/ES</div>
         <div class="about-tile-sub">Fully fluent in English and Spanish, a real edge in client-facing work</div>
       </div>
       <div class="about-tile">
-        <div class="about-tile-icon"><i class="ph-thin ph-graduation-cap"></i></div>
+        <div class="about-tile-icon"><i data-lucide="graduation-cap"></i></div>
         <div class="about-tile-title">B.A.T. Ops Mgmt</div>
         <div class="about-tile-sub">Systems thinking, process improvement, operational planning</div>
       </div>
       <div class="about-tile">
-        <div class="about-tile-icon"><i class="ph-thin ph-certificate"></i></div>
+        <div class="about-tile-icon"><i data-lucide="award"></i></div>
         <div class="about-tile-title">Google IT Certified</div>
         <div class="about-tile-sub">Formal grounding in hardware, networking, and troubleshooting methodology</div>
       </div>
     </div>
 
     <div class="about-bio">
-      <p>I spent years working every corner of a restaurant floor: scheduling, training, vendor coordination, and I became the person people called when the POS went down, the printer jammed, or the network dropped mid-rush. Staying calm, isolating the problem, and fixing it without shutting down service is the same instinct I want to bring to implementation work, where a new system only matters if the people using it can actually work with it. I've backed that up with a Google IT Support certification and a self-hosted Proxmox home lab, where I get real, hands-on practice with the systems, networking, and troubleshooting scenarios I'm genuinely into.</p>
+      <p>I spent years working every corner of a restaurant floor: scheduling, training, vendor coordination, and I became the person people called when the POS went down, the printer jammed, or the network dropped mid-rush. Staying calm, isolating the problem, and fixing it without shutting down service is the same instinct I want to bring to implementation work, where a new system only matters if the people using it can actually work with it. I've backed that up with a Google IT Support certification, and I use AI tools like Claude, ChatGPT, and Gemini day to day to work faster, whether that's researching a problem, drafting documentation, or cutting down repetitive tasks.</p>
     </div>
   </section>
 
@@ -195,31 +243,40 @@
 
     <div class="exp-list">
       <div class="exp-card">
-        <div class="exp-date">2021 to Present</div>
+        <div class="exp-date">Mar 2023 to Present</div>
         <div>
-          <div class="exp-role">Bar & FOH Lead / Manager</div>
-          <div class="exp-company">Las Fontanas Mexican Kitchen · New Braunfels, TX</div>
-          <div class="exp-desc">Managed day-to-day FOH operations including scheduling, inventory, labor allocation, vendor coordination, and daily reporting. Was the go-to person whenever the Toast POS, connectivity, or any other tech broke mid-shift, diagnosing and resolving issues on the spot to keep service running without interruption.</div>
+          <div class="exp-role">Manager</div>
+          <div class="exp-company">Las Fontana's Mexican Kitchen · New Braunfels, TX</div>
+          <ul class="exp-bullets">
+            <li>Own day-to-day setup, configuration, and troubleshooting of the restaurant's Toast POS system, including menu updates, pricing changes, and reporting accuracy</li>
+            <li>Lead onboarding and training for new hires and existing staff on POS workflows and operational tools, translating technical steps into clear, plain-language instructions</li>
+            <li>Serve as first point of contact for resolving operational and technology issues: triaging, prioritizing, and escalating problems much like managing a support ticket queue</li>
+            <li>Diagnose workflow and system bottlenecks in real time, applying root-cause thinking to restore normal operations quickly</li>
+            <li>Maintain accurate documentation, daily reporting, and closing procedures to support consistent execution, performance tracking, and stakeholder expectations</li>
+          </ul>
           <div class="project-tags" style="margin-top: 0.85rem;">
-            <span class="ptag">POS Troubleshooting</span>
             <span class="ptag">Toast POS</span>
+            <span class="ptag">POS Configuration</span>
+            <span class="ptag">Staff Training</span>
             <span class="ptag">Troubleshooting</span>
-            <span class="ptag">Vendor Coordination</span>
             <span class="ptag">Documentation</span>
           </div>
         </div>
       </div>
       <div class="exp-card">
-        <div class="exp-date">2025 to Present</div>
+        <div class="exp-date">Aug 2021 to May 2023</div>
         <div>
-          <div class="exp-role">IT Certification & Home Lab</div>
-          <div class="exp-company">Self-directed · victr-dev.github.io</div>
-          <div class="exp-desc">Completed the Google IT Support Professional Certificate. Running a self-hosted Proxmox home lab to get real, hands-on practice with systems, networking, and troubleshooting: technical depth I'm chasing because I enjoy it, not just for a job requirement.</div>
+          <div class="exp-role">Bartender / Waiter</div>
+          <div class="exp-company">Las Fontana's Mexican Kitchen · New Braunfels, TX</div>
+          <ul class="exp-bullets">
+            <li>Processed customer orders and payments through the restaurant's POS system in a high-volume, fast-paced environment, balancing speed and accuracy</li>
+            <li>Communicated clearly with customers and team members to understand needs and resolve issues on the spot</li>
+            <li>Trained new hires on POS use, process standards, and service procedures</li>
+          </ul>
           <div class="project-tags" style="margin-top: 0.85rem;">
-            <span class="ptag">Linux</span>
-            <span class="ptag">Networking</span>
-            <span class="ptag">Virtualization</span>
-            <span class="ptag">Self-Directed Learning</span>
+            <span class="ptag">POS</span>
+            <span class="ptag">Customer Service</span>
+            <span class="ptag">Training</span>
           </div>
         </div>
       </div>
@@ -257,15 +314,15 @@
         <p class="contact-intro">Actively looking for implementation specialist, technical, and operations roles in San Antonio, systems implementation especially. If you're hiring or know a team that is, let's talk.</p>
         <div class="contact-links">
           <a href="mailto:vicsprofessionalnet@gmail.com" class="contact-link" id="email-link">
-            <span class="cll"><i class="ph-thin ph-envelope"></i> Email</span>
+            <span class="cll"><i data-lucide="mail"></i> Email</span>
             <span class="clv" id="email-value">vicsprofessionalnet@gmail.com</span>
           </a>
           <a href="https://linkedin.com/in/victor-hernandez-486503221" target="_blank" class="contact-link">
-            <span class="cll"><i class="ph-thin ph-linkedin-logo"></i> LinkedIn</span>
+            <span class="cll"><i data-lucide="linkedin"></i> LinkedIn</span>
             <span class="clv">linkedin.com/in/victor-hernandez-486503221</span>
           </a>
           <a href="https://github.com/victr-dev" target="_blank" class="contact-link">
-            <span class="cll"><i class="ph-thin ph-github-logo"></i> GitHub</span>
+            <span class="cll"><i data-lucide="github"></i> GitHub</span>
             <span class="clv">github.com/victr-dev</span>
           </a>
         </div>
@@ -281,6 +338,8 @@
   </footer>
 
   <script>
+    lucide.createIcons({ attrs: { 'stroke-width': 1.5 } });
+
     // Email link: copy address to clipboard instead of relying on a default
     // mail client (mailto: often opens an unrelated/blank compose window
     // depending on the visitor's browser and OS settings).
