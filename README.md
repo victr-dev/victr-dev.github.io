@@ -8,9 +8,9 @@ Personal portfolio site showcasing my projects and background as I move toward i
 ## About
 I'm looking to bring a systems-and-people mindset to implementation specialist, technical, and operations roles in San Antonio, systems implementation especially.
 
-I hold a Google IT Support Professional Certificate (coursework comparable to CompTIA A+). Outside of coursework, I run a self-hosted Proxmox home lab where I document my own troubleshooting process, isolating issues methodically across hardware, firmware, and OS layers rather than guessing at fixes.
+I hold a Google IT Support Professional Certificate (coursework comparable to CompTIA A+). Outside of coursework, I run a self-hosted Proxmox home lab that I built with a repurposed PC.
 
-My background is in restaurant management, where I was the go-to person for troubleshooting our POS and other tech on the fly, diagnosed operational bottlenecks in real time, and stayed calm while solving problems under pressure. Those are the same skills implementation work runs on: the person on the other end needs clear answers, fast.
+My background is in restaurant operations, where I was the go-to person for troubleshooting our POS and other tech on the fly, diagnosed operational bottlenecks in real time, and stayed calm while solving problems under pressure. Those are the same skills implementation work runs on: the person on the other end needs clear answers, fast.
 
 ## Projects
 | Project | Description | Status |
