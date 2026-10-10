@@ -16,7 +16,7 @@ My background is in restaurant operations, where I was the go-to person for trou
 | Project | Description | Status |
 |---|---|---|
 | Proxmox Home Server | A self-hosted environment I built and maintain from the ground up | In Progress |
-| [Tipwell](https://tipwell.co) | Financial guidance app for tipped hospitality workers | Alpha |
+| Financial Health App | Financial guidance app for tipped hospitality workers | Alpha |
 
 ## Built With
 - HTML
