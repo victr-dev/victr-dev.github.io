@@ -15,8 +15,9 @@ My background is in restaurant operations, where I was the go-to person for trou
 ## Projects
 | Project | Description | Status |
 |---|---|---|
-| Proxmox Home Server | A self-hosted environment I built and maintain from the ground up | In Progress |
-| Financial Health App | Financial guidance app for tipped hospitality workers | Alpha |
+| Proxmox Home Server | A self-hosted environment I built and maintain from the ground up | Ongoing |
+| Financial Health App | Financial guidance app for tipped hospitality workers | Active |
+| Restaurant Order Management API | An order API that simulates how ordering platforms connect to a restaurant's POS and KDS | In Progress |
 
 ## Built With
 - HTML
