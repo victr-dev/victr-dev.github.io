@@ -6,7 +6,7 @@ Personal portfolio site showcasing my projects and background as I move into IT,
 [victr-dev.github.io](https://victr-dev.github.io)
 
 ## About
-I'm looking for entry-level IT roles in San Antonio, like help desk, IT support, or NOC technician, as the first step toward network engineering.
+I'm looking for entry-level IT roles in San Antonio TX, Austin TX, and New Braunfels TX in areas like Help Desk, IT support, NOC technician, or Junior Network Enhineer as the first step toward Network Engineering.
 
 I hold a Google IT Support Professional Certificate (coursework comparable to CompTIA A+). Outside of coursework, I run a self-hosted Proxmox home lab that I built with a repurposed PC, where I practice Linux, virtualization, and networking.
 
