@@ -27,4 +27,4 @@ My background is in restaurant operations, where I was the go-to person for trou
 ## Contact
 - Email: vicsprofessionalnet@gmail.com
 - LinkedIn: www.linkedin.com/in/victor-hernandez-486503221
-- Location: San Antonio, TX
+- Location: New Braunfels, TX
